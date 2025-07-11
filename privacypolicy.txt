@@ -1,0 +1,27 @@
+Your privacy is important to us. This extension (“Tasks Side-Panel”) is designed to display Google Tasks in Chrome’s Side Panel and nothing more.
+
+1. Data We Collect
+We do not collect, store, or transmit any personal data or usage information—period.
+
+2. Permissions Explained
+https://tasks.google.com/ host permission
+Required solely to embed Google Tasks in an iframe.
+
+The extension does not read, modify, or share content from that page.
+
+No other site access is requested.
+
+No cookies, local storage, or analytics are used.
+
+3. How the Extension Works
+All logic runs locally in your browser. When you open the Side Panel (default shortcut: ⌘ Shift Y on macOS, Ctrl Shift Y on Windows/Linux, configurable in Options), the extension loads Google Tasks exactly as it appears in a normal tab, inside an iframe. Nothing is intercepted or logged.
+
+4. Open Source & Transparency
+The full source code is publicly available at
+https://github.com/yumebayashi/tasks-extension.
+You may audit, fork, or build it yourself to verify this policy.
+
+5. Contact
+Questions? Reach us via the GitHub repository’s Issues page.
+
+By installing or using the extension, you acknowledge that no personal data is collected and that the sole purpose of the requested permission is to display Google Tasks within the Chrome Side Panel.
