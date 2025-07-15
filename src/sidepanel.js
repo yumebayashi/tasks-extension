@@ -1,8 +1,7 @@
-chrome.windows.getCurrent((w) => {
-    const portName = `sidepanel-${w.id}`;
-    const port = chrome.runtime.connect({ name: portName });
-    port.onMessage.addListener(msg => {
-        if (msg === 'close') window.close();
-    });
+const openedTime = Date.now();
+const { id: windowId } = await chrome.windows.getCurrent();
+chrome.runtime.onMessage.addListener((msg, sender) => {
+  if (msg.type === 'close_sidepanel' && msg.windowId === windowId && Date.now() - openedTime > 50) {
+    window.close();
+  }
 });
-
